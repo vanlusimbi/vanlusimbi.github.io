@@ -1,0 +1,294 @@
+/* ===== General Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f4f1e9;
+    color: #3e2f1c;
+    line-height: 1.6;
+}
+
+/* ===== Header & Navigation ===== */
+header {
+    background-color: #4b3621;
+    color: #f4f1e9;
+    padding: 20px 40px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #d9c9a3;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #a3c586;
+}
+
+/* ===== Main Content ===== */
+main {
+    padding: 40px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    background-color: #e8e2d0;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.profile-photo {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #6b8e4e;
+}
+
+.intro-text h2 {
+    color: #4b3621;
+    margin-bottom: 15px;
+}
+
+.intro-text p {
+    max-width: 600px;
+    font-size: 16px;
+}
+
+/* ===== Footer ===== */
+footer {
+    background-color: #4b3621;
+    color: #d9c9a3;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+/* ===== Biodata Page ===== */
+.biodata {
+    background-color: #e8e2d0;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.biodata h2 {
+    color: #4b3621;
+    margin-bottom: 20px;
+}
+
+.biodata-list {
+    list-style: none;
+}
+
+.biodata-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #c9bfa3;
+}
+
+.biodata-list li:last-child {
+    border-bottom: none;
+}
+/* ===== Academic Page ===== */
+.academic {
+    background-color: #e8e2d0;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.academic h2 {
+    color: #4b3621;
+    margin-bottom: 20px;
+}
+
+.academic-list {
+    list-style: none;
+}
+
+.academic-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #c9bfa3;
+}
+
+.academic-list li:last-child {
+    border-bottom: none;
+}
+/* ===== Innovation Page ===== */
+.innovation {
+    background-color: #e8e2d0;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.innovation h2 {
+    color: #4b3621;
+    margin-bottom: 20px;
+}
+
+.project-list {
+    list-style: none;
+}
+
+.project-list li {
+    padding: 15px 0;
+    border-bottom: 1px solid #c9bfa3;
+}
+
+.project-list li:last-child {
+    border-bottom: none;
+}
+
+.project-list h3 {
+    color: #6b8e4e;
+    margin-bottom: 8px;
+}
+/* ===== Profile Page ===== */
+.profile {
+    background-color: #e8e2d0;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.profile h2 {
+    color: #4b3621;
+    margin-bottom: 20px;
+}
+
+.profile h3 {
+    color: #6b8e4e;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.skills-list {
+    list-style: none;
+}
+
+.skills-list li {
+    padding: 8px 0;
+    padding-left: 15px;
+    border-bottom: 1px solid #c9bfa3;
+    position: relative;
+}
+
+.skills-list li::before {
+    content: "•";
+    color: #6b8e4e;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+/* ===== About Page ===== */
+.about {
+    background-color: #e8e2d0;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.about h2 {
+    color: #4b3621;
+    margin-bottom: 20px;
+}
+
+.about p {
+    margin-bottom: 15px;
+}
+/* ===== Contact Page ===== */
+.contact {
+    background-color: #e8e2d0;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact h2 {
+    color: #4b3621;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    margin: 15px 0 25px 0;
+}
+
+.social-links a {
+    color: #6b8e4e;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 20px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    color: #4b3621;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #c9bfa3;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 15px;
+}
+
+.contact-form button {
+    background-color: #6b8e4e;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #4b3621;
+}
