@@ -292,3 +292,10 @@ footer {
 .contact-form button:hover {
     background-color: #4b3621;
 }
+.project-img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    margin: 12px 0;
+    border: 3px solid #c9bfa3;
+}
